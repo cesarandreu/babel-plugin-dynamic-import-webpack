@@ -10,7 +10,7 @@ const testFolders = readdirSync(FIXTURE_PATH).filter(file => (
   statSync(join(FIXTURE_PATH, file)).isDirectory()
 ));
 
-describe('babel-plugin-dynamic-import-webpack', () => {
+describe('babel-plugin-dynamic-import-node', () => {
   testFolders.forEach((folderName) => {
     const actual = readFileSync(join(FIXTURE_PATH, folderName, 'actual.js'), 'utf8');
     const expected = readFileSync(join(FIXTURE_PATH, folderName, 'expected.js'), 'utf8');

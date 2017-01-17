@@ -1,7 +1,7 @@
 {
-  "name": "babel-plugin-dynamic-import-webpack",
+  "name": "babel-plugin-dynamic-import-node",
   "version": "1.0.1",
-  "description": "Babel plugin to transpile import() to require.ensure, for Webpack",
+  "description": "Babel plugin to transpile import() to a promise-wrapped require(), for Node",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/airbnb/babel-plugin-dynamic-import-webpack.git"
+    "url": "git+https://github.com/cesarandreu/babel-plugin-dynamic-import-node.git"
   },
   "keywords": [
     "babel",
@@ -36,9 +36,9 @@
   "author": "Jordan Gensler <jordan.gensler@airbnb.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/babel-plugin-dynamic-import-webpack/issues"
+    "url": "https://github.com/cesarandreu/babel-plugin-dynamic-import-node/issues"
   },
-  "homepage": "https://github.com/airbnb/babel-plugin-dynamic-import-webpack#readme",
+  "homepage": "https://github.com/cesarandreu/babel-plugin-dynamic-import-node#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.21.0",
